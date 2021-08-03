@@ -26,6 +26,8 @@ bot.on("channel_post", (ctx, next) => {
 	const chatId = ctx.chat.id
 	const message = ctx.update.channel_post
 	const types = Object.keys(typeParamsMap)
+	log("New channel post. chat_id:", chatId)
+
 
 	if (
 		shouldByAnonymized(message) &&
