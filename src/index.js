@@ -30,7 +30,8 @@ bot.start(async ctx => {
 
 		⚠ The bot does not save the text of the original post, but only extracts a photo, video, gif, audio or document and publishes on behalf of the channel.
 
-		👨‍💻 GitHub: https://github.com/mikhailsdv/forward-anonymizer-bot
+		GitHub: https://github.com/mikhailsdv/forward-anonymizer-bot
+		Author's channel: @FilteredInternet
 	`))
 })
 
