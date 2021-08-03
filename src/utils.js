@@ -11,7 +11,7 @@ const getDateString = () => {
 	return `${zeroFirst(d.getDate())}.${zeroFirst(d.getMonth() + 1)}.${d.getFullYear()} ${zeroFirst(d.getHours())}:${zeroFirst(d.getMinutes())}:${zeroFirst(d.getSeconds())}`
 }
 
-const log = (...args) => console.log(`${getDateString()}:`, ...args)
+const log = (...args) => console.log(getDateString(), ...args)
 
 const shouldByAnonymized = message => {
 	return Boolean(
