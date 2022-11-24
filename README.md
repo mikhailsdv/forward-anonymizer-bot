@@ -1,7 +1,7 @@
 # forward-anonymizer-bot
 Telegram-bot that anonymizes your channel forwards.
 
-> The project is no longer supported since Telegram [added](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) similar functionality to official clients.
+> The project is no longer maintained since Telegram [added](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) similar functionality to the official clients.
 
 Add it to your channel as an administrator and give it permission to delete and publish posts. Then you can simply forward posts from other channels to your channel.
 
